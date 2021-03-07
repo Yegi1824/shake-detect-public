@@ -13,24 +13,43 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`start()`](#start)
+* [`stop()`](#stop)
+* [`addListener(...)`](#addlistener)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### start()
 
 ```typescript
-echo(options: { value: string; }) => any
+start() => void
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
+--------------------
 
-**Returns:** <code>any</code>
+
+### stop()
+
+```typescript
+stop() => void
+```
+
+--------------------
+
+
+### addListener(...)
+
+```typescript
+addListener(name: string, onSuccess: () => void) => void
+```
+
+| Param           | Type                       |
+| --------------- | -------------------------- |
+| **`name`**      | <code>string</code>        |
+| **`onSuccess`** | <code>() =&gt; void</code> |
 
 --------------------
 
