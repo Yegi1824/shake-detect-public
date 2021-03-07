@@ -1,3 +1,5 @@
 export interface ShakePlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  start(): void;
+  stop(): void;
+  addListener(name: string, onSuccess: () => void): void;
 }
