@@ -1,0 +1,54 @@
+{
+  "api": {
+    "name": "ShakePlugin",
+    "slug": "shakeplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "start",
+        "signature": "() => void",
+        "parameters": [],
+        "returns": "void",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "start"
+      },
+      {
+        "name": "stop",
+        "signature": "() => void",
+        "parameters": [],
+        "returns": "void",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "stop"
+      },
+      {
+        "name": "addListener",
+        "signature": "(name: string, onSuccess: () => void) => void",
+        "parameters": [
+          {
+            "name": "name",
+            "docs": "",
+            "type": "string"
+          },
+          {
+            "name": "onSuccess",
+            "docs": "",
+            "type": "() => void"
+          }
+        ],
+        "returns": "void",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "addlistener"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": []
+}
